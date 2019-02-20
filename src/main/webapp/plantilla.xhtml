@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:b="http://bootsfaces.net/ui"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title><ui:insert name="titulo">TITULO</ui:insert></title>
+    </h:head>
+    <h:body>
+        <b:navBar brand="AdminAulas" brandHref="#" inverse="true">
+            <b:navbarLinks>
+                <b:navLink value="Principal" href="index.xhtml"></b:navLink>
+                <b:navLink value="Ejemplo" href="ejemplo.xhtml"></b:navLink>
+                <b:navLink value=". . ." href="#"></b:navLink>
+            </b:navbarLinks>
+        </b:navBar>
+        <ui:insert name="contenido">CONTENIDO</ui:insert>
+    </h:body>
+</html>
