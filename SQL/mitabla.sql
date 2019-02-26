@@ -1,0 +1,8 @@
+CREATE TABLE Academico(
+	nombre VARCHAR(200),
+	apellido1 VARCHAR(200),
+	apellido2 VARCHAR(200),
+	RFC VARCHAR(18) PRIMARY KEY,
+	correo VARCHAR(200),
+	depto VARCHAR(40)
+);
