@@ -14,3 +14,6 @@ Repositorio para ejemplos de clase.
 1. Ejemplo de base de datos.
 1. Ejemplo de creación de Clase a partir de tablas de Base de Datos.
 1. Ejemplo de creación de controlador de I,B,A para Clase Entidad.
+## Características Sexta Clase
+1. Ejemplo de Inicio de Sesion con multiples tipos de usuario.
+1. Ejemplo de restricción de usuario.
